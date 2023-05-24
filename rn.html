@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="rn.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form name="myform" method="post" action="rn.jsp">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Registration</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" placeholder="Shiv Sharma" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="abc@gmail.com">
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" placeholder="room - street - locality" name="ln">
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" placeholder="Indore" name="city">
+                </div>
+                <div class="inputBox">
+                    <span>Password :</span>
+                    <input type="Password" name="pass">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" placeholder="india" name="cy">
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" placeholder="452 001">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<a style="text-decoration: none;" href="login.html"><button class="submit-btn"  onclick="myalert()">
+    Submit
+</button></a>
+<script>
+    function myalert() {
+        alert("Succefully Register!" );
+    }
+</script>
+
+    </form>   
+    
+</body>
+</html>
